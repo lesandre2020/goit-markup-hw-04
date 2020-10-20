@@ -408,7 +408,17 @@ main .buttons li {
 }
 
 .main-section {
-  background-image: url(../images/heder-img.jpg);
+  max-width: 1600px;
+  height: 600px;
+  margin-left: auto;
+  margin-right: auto;
+  background-size: cover;
+  background-image: linear-gradient(
+      to bottom left,
+      rgba(47, 48, 58, 0.4),
+      rgba(47, 48, 58, 0.4)
+    ),
+    url(../images/header-img.jpg);
   background-repeat: no-repeat;
   background-position: center center;
 }
