@@ -347,18 +347,9 @@ nav .list li {
   margin-left: 331px;
 }
 
-/* main .list li {
-  margin-right: 30px;
-} */
-
 nav .list li:last-child {
   margin-right: 0;
 }
-
-/* header .header-nav li:last-child {
-  margin-right: 0;
-  background-color: tomato;
-} */
 
 .list-portfolio {
   border: 1px solid #eeeeee;
@@ -386,8 +377,6 @@ main .buttons li {
 .list-command h3,
 .list-command p {
   margin-top: 10px;
-  /* margin-left: 24px;
-  margin-right: 24px; */
 }
 
 .list-command h3 {
@@ -426,7 +415,13 @@ main .buttons li {
   height: 120px;
   width: 270px;
   background-color: #f5f4fa;
+
   border-radius: 4px;
+}
+
+.box svg {
+  width: 70px;
+  height: 70px;
 }
 
 .box:nth-child(1) {
@@ -440,7 +435,37 @@ main .buttons li {
   fill: #afb1b8;
 }
 
-.list-clients:hover svg {
+.box-clients:nth-child(1) svg {
+  width: 44px;
+  height: 49px;
+}
+
+.box-clients:nth-child(2) svg {
+  width: 40px;
+  height: 52px;
+}
+
+.box-clients:nth-child(3) svg {
+  width: 41px;
+  height: 43px;
+}
+
+.box-clients:nth-child(4) svg {
+  width: 80px;
+  height: 42px;
+}
+
+.box-clients:nth-child(5) svg {
+  width: 59px;
+  height: 47px;
+}
+
+.box-clients:nth-child(6) svg {
+  width: 89px;
+  height: 46px;
+}
+
+.box-clients:hover svg {
   fill: var(--accent-color);
 }
 
@@ -481,9 +506,11 @@ main .buttons li {
   color: var(--white-color);
 }
 /* соц сети */
-.social-list-item {
-  display: inline-block;
 
+.social-list-item-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   height: 44px;
   width: 44px;
   background-color: rgba(255, 255, 255, 0.1);
@@ -492,26 +519,17 @@ main .buttons li {
 
 .social-list-item-link svg {
   fill: #ffffff;
-  background-position: center;
+  width: 20px;
+  height: 20px;
 }
 
 .social-list-item:hover {
   background-color: var(--accent-color);
 }
 
-/* .social-list {
-  display: flex;
-  justify-content: center;
-} */
-
 /* соц сети енд */
 
-/* .footer-conteiner {
-  width: 270px;
-  display: flex;
-} */
-
-.main-command .social-list-item {
+/* .main-command .social-list-item {
   width: 44px;
   height: 44px;
   margin: 0;
@@ -523,4 +541,4 @@ main .buttons li {
 
 .main-command svg:hover {
   fill: var(--white-color);
-}
+} */
