@@ -273,7 +273,7 @@ footer {
   margin-right: 30px;
 
   width: 270px;
-  height: 368px;
+  height: 428px;
 }
 
 .main-portfolio .list-portfolio {
@@ -492,6 +492,7 @@ main .buttons li {
 
 .social-list-item-link svg {
   fill: #ffffff;
+  background-position: center;
 }
 
 .social-list-item:hover {
@@ -509,3 +510,8 @@ main .buttons li {
   width: 270px;
   display: flex;
 } */
+
+.main-command .social-list-item {
+  width: 44px;
+  height: 44px;
+}
