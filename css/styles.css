@@ -116,6 +116,10 @@ footer {
   color: var(--primary-text-color);
 }
 
+header svg {
+  fill: var(--primary-text-color);
+}
+
 .header-nav:hover,
 .header-nav:focus {
   color: var(--accent-color);
@@ -123,6 +127,10 @@ footer {
 
 .header-nav.current {
   color: var(--accent-color);
+}
+
+.header-nav:hover svg {
+  fill: var(--accent-color);
 }
 
 .main-section {
@@ -338,7 +346,7 @@ nav .list li {
 }
 
 .item {
-  margin-left: 331px;
+  margin-left: 305px;
 }
 
 nav .list li:last-child {
@@ -435,34 +443,9 @@ main .buttons li {
   justify-content: center;
 }
 
-.box-clients:nth-child(1) svg {
-  width: 44px;
-  height: 49px;
-}
-
-.box-clients:nth-child(2) svg {
-  width: 40px;
-  height: 52px;
-}
-
-.box-clients:nth-child(3) svg {
-  width: 41px;
-  height: 43px;
-}
-
-.box-clients:nth-child(4) svg {
-  width: 80px;
-  height: 42px;
-}
-
-.box-clients:nth-child(5) svg {
-  width: 59px;
-  height: 47px;
-}
-
 .box-clients:nth-child(6) svg {
-  width: 89px;
-  height: 46px;
+  /* width: 89px;
+  height: 46px; */
   margin-right: 0px;
 }
 
@@ -477,7 +460,7 @@ main .buttons li {
 .box-clients {
   height: 90px;
   width: 170px;
-  background-color: #f5f4fa;
+  /* background-color: #f5f4fa; */
   border: 1px solid #afb1b8;
   box-sizing: border-box;
   border-radius: 4px;
@@ -532,6 +515,10 @@ main .buttons li {
   background-color: var(--accent-color);
 }
 
+.social-list-item-link:hover svg {
+  fill: #ffffff;
+}
+
 .social-list-item {
   margin-right: 10px;
 }
@@ -564,4 +551,9 @@ main .buttons li {
 
 .list-command .social-list {
   justify-content: center;
+}
+
+.list-portfolio:hover {
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
+    1px 4px 6px rgba(0, 0, 0, 0.16);
 }
