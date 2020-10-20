@@ -514,4 +514,13 @@ main .buttons li {
 .main-command .social-list-item {
   width: 44px;
   height: 44px;
+  margin: 0;
+}
+
+.main-command svg {
+  fill: #afb1b8;
+}
+
+.main-command svg:hover {
+  fill: var(--white-color);
 }
