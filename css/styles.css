@@ -346,7 +346,7 @@ nav .list li {
 }
 
 .item {
-  margin-left: 305px;
+  margin-left: 285px;
 }
 
 nav .list li:last-child {
@@ -556,4 +556,8 @@ main .buttons li {
 .list-portfolio:hover {
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
     1px 4px 6px rgba(0, 0, 0, 0.16);
+}
+
+header .item svg {
+  margin-right: 10px;
 }
