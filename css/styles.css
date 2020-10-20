@@ -127,7 +127,7 @@ footer {
 
 .main-section {
   text-align: center;
-  background-color: #2f303a;
+  /* background-color: #2f303a; */
   padding-top: 200px;
   padding-bottom: 200px;
 }
@@ -415,3 +415,96 @@ main .buttons li {
 .advantages li:nth-child(4) {
   margin-right: 0px;
 }
+
+.main-section {
+  background-image: url(../images/heder-img.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.box {
+  height: 120px;
+  width: 270px;
+  background-color: #f5f4fa;
+  border-radius: 4px;
+}
+
+.box:nth-child(1) {
+  display: block;
+  padding-top: 25px;
+  padding-left: 100px;
+  object-position: position;
+}
+
+.list-clients svg {
+  fill: #afb1b8;
+}
+
+.list-clients:hover svg {
+  fill: var(--accent-color);
+}
+
+.box-clients:hover {
+  border-color: var(--accent-color);
+}
+
+.box-clients {
+  height: 90px;
+  width: 170px;
+  background-color: #f5f4fa;
+  border: 1px solid #afb1b8;
+  box-sizing: border-box;
+  border-radius: 4px;
+  margin-right: 30px;
+  margin-top: 50px;
+}
+
+.clients ul {
+  display: flex;
+  justify-content: center;
+}
+
+/* .list-clients:nth-child(1) {
+  display: block;
+  padding-top: 25px;
+  padding-left: 100px;
+  object-position: position;
+} */
+
+.footer-subtitle {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  text-align: center;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--white-color);
+}
+/* соц сети */
+.social-list-item {
+  display: inline-block;
+
+  height: 44px;
+  width: 44px;
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 50%;
+}
+
+.social-list-item-link svg {
+  fill: #ffffff;
+}
+
+.social-list-item:hover {
+  background-color: var(--accent-color);
+}
+
+/* .social-list {
+  display: flex;
+  justify-content: center;
+} */
+
+/* соц сети енд */
+
+/* footer .conteiner {
+  display: inline-block;
+} */
